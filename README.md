@@ -13,7 +13,6 @@
         "author": "Marian Wright Edelman",
         "link": "https://en.wikipedia.org/wiki/Marian_Wright_Edelman"
     },
-// And so on...
 ]
 ```
 

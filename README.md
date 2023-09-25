@@ -1,5 +1,23 @@
-# How to implement
+# Information
 
+## Structure of JSON
+```json
+[
+    {
+        "quote": "The only people who never fail are those who never try.",
+        "author": "Ilka Chase",
+        "link": "https://en.wikipedia.org/wiki/Ilka_Chase"
+    },
+    {
+        "quote": "Failure is just another way to learn how to do something right.",
+        "author": "Marian Wright Edelman",
+        "link": "https://en.wikipedia.org/wiki/Marian_Wright_Edelman"
+    },
+// And so on...
+]
+```
+
+## How to implement
 ```php
 function get_random_inspiration_quote()
 {

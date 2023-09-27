@@ -14,8 +14,13 @@
         "author": "Thomas Edison",
         "link": "https://en.wikipedia.org/wiki/Thomas_Edison"
     },
-        {
+    {
         "quote": "It just works",
+        "author": "Todd Howard",
+        "link": "https://en.wikipedia.org/wiki/Todd_Howard"
+    },
+    {
+        "quote": "Sometimes it doesn't just work.",
         "author": "Todd Howard",
         "link": "https://en.wikipedia.org/wiki/Todd_Howard"
     },

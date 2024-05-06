@@ -54,24 +54,24 @@ function get_random_inspiration_quote()
     --text-color: #0B1114;
     --link-color: #0073aa;
     --link-hover-color: #00a0d2;
-	--font-family: 'Space Grotesk', sans-serif;
+    --font-family: 'Space Grotesk', sans-serif;
 }
 
 .insp_quote_content {
-	position: absolute;
-	clear: both;
-	min-height: 100px;
-	padding: 10px 20px;
-	background-color: #f9f9f9;
-	border-top: 1px solid #eee;
-	text-align: center;
-	margin-top:-50px;
-	box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
-	font-size: 16px;
-	line-height: 1.6;
-	color: var(--text-color);
-	width: 96.5%;
-	font-family: var(--font-family);
+    position: absolute;
+    clear: both;
+    min-height: 100px;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    text-align: center;
+    margin-top: -50px;
+    box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    width: 96.5%;
+    font-family: var(--font-family);
 }
 
 
@@ -83,18 +83,21 @@ function get_random_inspiration_quote()
     position: relative;
 }
 
-.insp_quote_author, .insp_quote_heart {
+.insp_quote_author,
+.insp_quote_heart {
     font-weight: 600;
     display: block;
 }
 
-.insp_quote_footer a, .insp_quote_content a {
+.insp_quote_footer a,
+.insp_quote_content a {
     color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.insp_quote_footer a:hover, .insp_quote_content a:hover {
+.insp_quote_footer a:hover,
+.insp_quote_content a:hover {
     color: var(--link-hover-color);
 }
 
